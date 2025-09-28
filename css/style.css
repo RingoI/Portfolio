@@ -647,50 +647,143 @@
 .seccion2 .caja .caja__iconos .contenedor-iconos .fa-node {
   font-size: 6.5rem;
 }
-.seccion2 .caja .caja__iconos .contenedor-iconos .icono-typescript {
-  background-image: url(../assets/languages/typescript.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 4.5rem;
-  height: 4.5rem;
-}
-.seccion2 .caja .caja__iconos .contenedor-iconos .icono-typescript:hover {
-  background-image: url(../assets/languages/typescript-2.svg);
-}
-.seccion2 .caja .caja__iconos .contenedor-iconos .icono-express {
-  background-image: url(../assets/languages/express.svg);
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-linux {
+  background-image: url(../assets/languages/linux.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   width: 6rem;
   height: 6rem;
 }
-.seccion2 .caja .caja__iconos .contenedor-iconos .icono-express:hover {
-  background-image: url(../assets/languages/express-2.svg);
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-linux:hover {
+  background-image: url(../assets/languages/linux.svg);
 }
-.seccion2 .caja .caja__iconos .contenedor-iconos .icono-npm {
-  background-image: url(../assets/languages/npm.svg);
+
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-java {
+  background-image: url(../assets/languages/java-4-logo-svgrepo-com.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  width: 8.5rem;
-  height: 4rem;
+  width: 6rem;
+  height: 6rem;
 }
-.seccion2 .caja .caja__iconos .contenedor-iconos .icono-npm:hover {
-  background-image: url(../assets/languages/npm-2.svg);
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-java:hover {
+  background-image: url(../assets/languages/java-4-logo-svgrepo-com.svg);
 }
-.seccion2 .caja .caja__iconos .contenedor-iconos .icono-mdb {
-  background-image: url(../assets/languages/mdb.svg);
+
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-postgresql {
+  background-image: url(../assets/languages/postgresql-svgrepo-com.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  width: 6.5rem;
-  height: 6.5rem;
+  width: 6rem;
+  height: 6rem;
 }
-.seccion2 .caja .caja__iconos .contenedor-iconos .icono-mdb:hover {
-  background-image: url(../assets/languages/mdb-2.svg);
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-postgresql:hover {
+  background-image: url(../assets/languages/postgresql-svgrepo-com.svg);
 }
+
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-python {
+  background-image: url(../assets/languages/Python-logo-notext.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-python:hover {
+  background-image: url(../assets/languages/Python-logo-notext.svg);
+}
+
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-prisma {
+  background-image: url(../assets/languages/prisma-svgrepo-com.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-prisma:hover {
+  background-image: url(../assets/languages/prisma-svgrepo-com.svg);
+}
+
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-golang {
+  background-image: url(../assets/languages/Node.js_logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-golang:hover {
+  background-image: url(../assets/languages/Node.js_logo.svg);
+}
+
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-html {
+  background-image: url(../assets/languages/HTML5_logo_and_wordmark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-html:hover {
+  background-image: url(../assets/languages/HTML5_logo_and_wordmark.svg);
+}
+
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-css {
+  background-image: url(../assets/languages/CSS3_logo_and_wordmark.svg);
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-css:hover {
+  background-image: url(../assets/languages/CSS3_logo_and_wordmark.svg);
+}
+.icono-css {
+  order: 5;
+}
+
+
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-js {
+  background-image: url(../assets/languages/Unofficial_JavaScript_logo_2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-js:hover {
+  background-image: url(../assets/languages/Unofficial_JavaScript_logo_2.svg);
+}
+
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-node {
+  background-image: url(../assets/languages/node.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-node:hover {
+  background-image: url(../assets/languages/node.svg);
+} 
+
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-node {
+  background-image: url(../assets/languages/React-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+.seccion2 .caja .caja__iconos .contenedor-iconos .icono-node:hover {
+  background-image: url(../assets/languages/React-icon.svg);
+} 
+
+
 
 /* DE AQUI MAS GRANDE SOLUCIONADO */
 @media (min-width: 420px) {
@@ -709,22 +802,10 @@
   .seccion2 .caja .caja__iconos .contenedor-iconos .fa-node {
     font-size: 8.5rem;
   }
-  .seccion2 .caja .caja__iconos .contenedor-iconos .icono-typescript {
-    width: 6.3rem;
-    height: 6.3rem;
-  }
-  .seccion2 .caja .caja__iconos .contenedor-iconos .icono-express {
-    width: 7rem;
-    height: 7rem;
-  }
-  .seccion2 .caja .caja__iconos .contenedor-iconos .icono-mdb {
-    width: 8.5rem;
-    height: 8.5rem;
-  }
-  .seccion2 .caja .caja__iconos .contenedor-iconos .icono-npm {
-    width: 9rem;
-    height: 4rem;
-  }
+  
+  
+  
+  
 }
 @media (min-width: 530px) {
   .seccion2 .caja .caja__contenido label {
@@ -747,22 +828,9 @@
   .seccion2 .caja .caja__iconos .contenedor-iconos .fa-node {
     font-size: 9rem;
   }
-  .seccion2 .caja .caja__iconos .contenedor-iconos .icono-typescript {
-    width: 7rem;
-    height: 7rem;
-  }
-  .seccion2 .caja .caja__iconos .contenedor-iconos .icono-express {
-    width: 7rem;
-    height: 7rem;
-  }
-  .seccion2 .caja .caja__iconos .contenedor-iconos .icono-mdb {
-    width: 10rem;
-    height: 10rem;
-  }
-  .seccion2 .caja .caja__iconos .contenedor-iconos .icono-npm {
-    width: 10rem;
-    height: 5rem;
-  }
+
+  
+  
 }
 @media (min-width: 650px) {
   .seccion2 {

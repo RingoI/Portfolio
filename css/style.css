@@ -1606,5 +1606,66 @@ main {
 .body::-webkit-scrollbar-thumb {
   background: #8f88fe; /* PROV */
 }
+.proyecto--destacado {
+  background: linear-gradient(to right, #1c1c1c, #141414);
+  border: 0.1rem solid rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease;
+}
+.proyecto--destacado:hover {
+  transform: scale(1.02);
+}
+
+.proyecto--destacado .nombre {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #acaffe;
+}
+.proyecto--destacado .fecha {
+  font-size: 1.4rem;
+  color: #888;
+}
+.proyecto--destacado .descripcion {
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+.boton-proyecto {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  color: white;
+  border: 0.1rem solid #8f88fe;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.boton-proyecto:hover {
+  background-color: #7065ff;
+}
+.boton-github {
+  border-color: #acaffe;
+}
+.boton-github:hover {
+  background-color: #acaffe;
+  color: black;
+}
+.icono-springboot {
+  width: 4rem;
+  height: 4rem;
+  background: url('../assets/languages/spring-boot-svgrepo-com.svg') no-repeat center;
+  background-size: contain;
+  transition: transform 0.3s ease;
+}
+.icono-springboot:hover {
+  transform: scale(1.1);
+}
+
 
 /*# sourceMappingURL=style.css.map */

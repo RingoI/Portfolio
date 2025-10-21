@@ -14,8 +14,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css?bbbcccb" />
     <!-- JS -->
-    <script src="./src/redes_trabajos.js" defer></script>
-    <script src="./src/main.js" defer></script>
+    <script type="module" src="./src/redes_trabajos.js"></script>
+    <script type="module" src="./src/main.js"></script>
+
     <!-- poppins font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -124,6 +125,8 @@
               <div class="icono-html"></div>
               <div class="icono-js"></div>
               <div class="icono-node"></div>
+              <div class="icono-springboot"></div>
+
      
             </div>
           </div>
@@ -131,48 +134,68 @@
       </section>
 
       <!-- SECCION 3 - PROYECTOS-->
-      <section class="seccion3" id="seccion-projects">
-        <div class="caja1">
-          <h2 class="titulo-projects">Proyectos</h2>
-          <p class="subtitulo">Aca estan algunos de mis proyectos mas importantes</p>
+     <section class="seccion3" id="seccion-projects">
+  <div class="caja1">
+    <h2 class="titulo-projects">Proyectos</h2>
+    <p class="subtitulo">Acá están algunos de mis proyectos más importantes</p>
+  </div>
+
+  <div class="seccion3__contenedor" id="contenedor-proyectos">
+    <!-- Template para carga dinámica -->
+    <template id="template-proyecto">
+      <article class="proyecto">
+        <div class="contenido">
+          <div class="contenedor-datos">
+            <span class="nombre"></span>
+            <span class="fecha"></span>
+            <p class="descripcion"></p>
+          </div>
+          <div class="contenedor-botones">
+            <button>
+              Website&nbsp;&nbsp;
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+            <a href="#" target="_blank" class="link-github">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
         </div>
-        
-        <div class="seccion3__contenedor" id="contenedor-proyectos">
-          <!-- ////////////////////////////////// -->
-          <template id="template-proyecto">
-            <article class="proyecto" >
-              <div class="contenido">
-                <!-- contenedor datos -->
-                <div class="contenedor-datos">
-                  <span class="nombre"></span>
-                  <span class="fecha"></span>
-                  <p class="descripcion"></p>
-                </div>
-                <!-- contenedor botones -->
-                <div class="contenedor-botones">
-                  
-                    <button>
-                      Website&nbsp;&nbsp;
-                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </button>
-                  </a>
-                  <a href="https://github.com/jaenfigueroa/eCommerce" target="_blank" class="link-github">
-                    
-                  </a>
-                </div>
-                <!-- ------------------- -->
-              </div>
-            </article>
-          </template>
+      </article>
+    </template>
+
+    <!-- Proyecto Shift Scheduler -->
+    <article class="proyecto proyecto--destacado">
+      <div class="contenido">
+        <div class="contenedor-datos">
+          <span class="nombre">Shift Scheduler</span>
+          <span class="fecha">Octubre 2025</span>
+          <p class="descripcion">
+            Sistema de gestión de turnos con React, Spring Boot y PostgreSQL. Desplegado con Docker.
+          </p>
         </div>
-        <!-- ////////////////////////////////// -->
-        <div class="contenedor-more titulo-more-projects">
-          <a href="https://github.com/RingoI" target="_blank">
-            <span>Más proyectos&nbsp;&nbsp;</span>
+        <div class="contenedor-botones">
+          <a href="http://localhost:8085" target="_blank" class="boton-proyecto">
+            <span>Demo local</span>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+          <a href="https://github.com/RingoI/shift-scheduler-custom" target="_blank" class="boton-proyecto boton-github">
+            <span>Ver código</span>
             <i class="fa-brands fa-github"></i>
           </a>
         </div>
-      </section>
+      </div>
+    </article>
+  </div>
+
+  <!-- Botón para ver más proyectos -->
+  <div class="contenedor-more titulo-more-projects">
+    <a href="https://github.com/RingoI" target="_blank">
+      <span>Más proyectos&nbsp;&nbsp;</span>
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+</section>
+
 
       <!-- SECCION 4 - CONTACT-->
       <section class="seccion4" id="seccion-contact">

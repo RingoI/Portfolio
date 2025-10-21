@@ -198,5 +198,11 @@ function crearTarjeta(trabajo) {
   fragmento.append(clon)
   contenedor.prepend(fragmento)
 }
+export default defineConfig({
+  base: './',
+  build: {
+    outDir: 'dist',
+  },
+});
 
 ///////////////////////////////////////////////////////////////////////////
